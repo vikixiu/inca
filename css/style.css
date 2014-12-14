@@ -1,0 +1,69 @@
+html,body{background: #fff; font-size: 13px; color: #111;font-family: 'Microsoft YaHei', sans-serif;}
+.col1{width: 880px; margin: auto;}
+
+
+#logo{background: url(../images/logo-bg.jpg) no-repeat; height: 154px}
+
+#banner>img{display: block;}
+
+#nav{text-align: center; background: url(../images/nav.jpg) 0 -1px no-repeat; height: 50px}
+	#nav.about{background-position: 0 -52px}
+	#nav.product{background-position: 0 -104px}
+	#nav.business{background-position: 0 -157px}
+	#nav.contact{background-position: 0 bottom}
+#nav a{display: inline-block; width: 124px; height: 50px; text-indent: -999em}
+
+#slider{position: relative;}
+#slider>img{display: block;}
+ .prev,.next{position: absolute; top:153px; width: 33px; height: 46px; cursor: pointer; text-indent: -9999em}
+ .prev{left:30px;}
+ .next{right: 30px;}
+#indexCtn p{ line-height: 24px; text-indent: 26px} 
+.indexCtn-indexbox{background: url(../images/indexbox-bg.jpg) no-repeat; height: 294px; text-align: center;} 
+	.indexCtn-indexbox a{display: block; float: left;  margin: 195px 96px 0; 
+		width: 101px; height: 32px; text-indent: -999em;}
+	#legend{background: url(../images/legend.jpg); height: 555px}	
+		#legend p{padding-top: 94px; padding-left: 314px; padding-right: 65px;}
+	#value{background: url(../images/value.jpg); height: 715px}
+		#value .p1{padding-left: 65px; padding-top: 105px; padding-right: 295px}
+		#value .p2{padding-left: 65px; padding-top: 10px; padding-right: 157px}
+		#value .p3{padding-left: 424px; padding-top: 10px; padding-right: 157px}
+	#honor{background: url(../images/honor.jpg); height: 466px}	
+		#honor p{padding-top: 100px; padding-left: 173px; padding-right: 330px}
+
+#aboutkv{background: url(../images/aboutkv.jpg) no-repeat; height: 507px}
+	#aboutkv p{padding: 85px 440px 0 123px; line-height: 21px; color: #666}
+#aboutCtn{color: #83744d;}	
+	#aboutCtn p{line-height: 17px;}
+	#aboutCtn1{background: url(../images/aboutCtn1.jpg) no-repeat; height: 440px}
+		#aboutCtn1 p{padding: 240px 120px 0 575px}
+	#aboutCtn2{background: url(../images/aboutCtn2.jpg) no-repeat; height: 301px}
+		#aboutCtn2 p{padding: 85px 523px 0 120px}
+	#aboutCtn3{background: url(../images/aboutCtn3.jpg) no-repeat; height: 301px}
+		#aboutCtn3 p{padding: 100px 120px 0 600px}
+	#aboutCtn7{background: url(../images/aboutCtn7.jpg) no-repeat; height: 393px}
+		#aboutCtn7 p{padding: 163px 140px 0 440px; color: #111; line-height: 21px; text-indent: 26px}
+	#aboutCtn4 img,#aboutCtn8 img{display: block;}		
+#productCtn p{line-height: 20px}
+	#product2{background: url(../images/product2.jpg) no-repeat; height: 403px;}
+		#product2 p{padding: 123px 72px 0 632px;}	
+	#product3{background: url(../images/product3.jpg) no-repeat; height: 382px;}
+		#product3 p{padding: 128px 75px 0 550px}
+	#product4{background: url(../images/product4.jpg) no-repeat; height: 382px;}
+		#product4 p{padding: 135px 550px 0 88px}
+	#product5{background: url(../images/product5.jpg) no-repeat; height: 382px;}
+		#product5 p{padding: 64px 43px 0 490px; line-height: 23px}
+	#product6{margin-bottom: 5px;}	
+		#product6 img{display: block;}
+#businessCtn{margin-bottom: 5px}		
+	#businessCtn img{display: block; }
+
+	#contactCtn img{display: block; }
+	#contactCtn ul{background: #eeefe9 url(../images/contacticon.png) center 35px no-repeat; border: solid #83744d; border-width: 1px 0; text-align: center; margin-bottom: 5px}
+		#contactCtn li{display: inline-block; font-size: 14px; margin: 85px 30px 35px; width: 155px}
+		#contactCtn h2{color: #837d64; margin-bottom: 15px}	
+		#contactCtn p{line-height: 20px; margin-bottom: 10px}
+		#contactCtn a{color:#c00; font-style: italic; text-decoration: underline;}	
+
+#footer{background: url(../images/footer-bg.jpg) no-repeat; height: 82px; font-size: 10px}
+.footer-col{float: left; text-align: center; color: #fff; width: 50%; padding-top: 15px}
