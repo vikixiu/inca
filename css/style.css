@@ -9,13 +9,13 @@ html,body{background: #fff; font-size: 13px; color: #111;font-family: 'Microsoft
 #nav{text-align: center; background: url(../images/nav.jpg) 0 -1px no-repeat; height: 50px}
 	#nav.about{background-position: 0 -52px}
 	#nav.product{background-position: 0 -104px}
-	#nav.business{background-position: 0 -157px}
-	#nav.contact{background-position: 0 bottom}
+	#nav.business{background-position: 0 -150px}
+	#nav.contact{background-position: 0 -200px}
 #nav a{display: inline-block; width: 124px; height: 50px; text-indent: -999em}
 
 #slider{position: relative;}
 #slider>img{display: block;}
- .prev,.next{position: absolute; top:153px; width: 33px; height: 46px; cursor: pointer; text-indent: -9999em}
+ .prev,.next{position: absolute; top:153px; width: 33px; height: 46px; cursor: pointer; text-indent: -9999em; z-index: 9999;}
  .prev{left:30px;}
  .next{right: 30px;}
 #indexCtn p{ line-height: 24px; text-indent: 26px} 
@@ -30,6 +30,9 @@ html,body{background: #fff; font-size: 13px; color: #111;font-family: 'Microsoft
 		#value .p3{padding-left: 424px; padding-top: 10px; padding-right: 157px}
 	#honor{background: url(../images/honor.jpg); height: 466px}	
 		#honor p{padding-top: 100px; padding-left: 173px; padding-right: 330px}
+	#video{padding-bottom: 5px; border-bottom: 1px solid #82744d; margin-bottom: 5px; height: 330px}	
+	.video-wrapper{float: left;}
+		.video-wrapper p{background: #82744d; color: #fff; line-height: 30px; height: 30px; text-align: center;}	
 
 #aboutkv{background: url(../images/aboutkv.jpg) no-repeat; height: 507px}
 	#aboutkv p{padding: 85px 440px 0 123px; line-height: 21px; color: #666}
