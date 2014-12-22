@@ -7,17 +7,18 @@ html,body{background: #fff; font-size: 13px; color: #111;font-family: 'Microsoft
 #banner>img{display: block;}
 
 #nav{text-align: center; background: url(../images/nav.jpg) 0 -1px no-repeat; height: 50px}
-	#nav.about{background-position: 0 -52px}
-	#nav.product{background-position: 0 -104px}
+	#nav.about{background-position: 0 -50px}
+	#nav.product{background-position: 0 -100px}
 	#nav.business{background-position: 0 -150px}
 	#nav.contact{background-position: 0 -200px}
 #nav a{display: inline-block; width: 124px; height: 50px; text-indent: -999em}
 
 #slider{position: relative;}
 #slider>img{display: block;}
- .prev,.next{position: absolute; top:153px; width: 33px; height: 46px; cursor: pointer; text-indent: -9999em; z-index: 9999;}
+ .prev,.next{position: absolute; top:153px; width: 33px; height: 46px; background: url(../images/arrow.png) no-repeat;
+ 	cursor: pointer; text-indent: -9999em; z-index: 9999;}
  .prev{left:30px;}
- .next{right: 30px;}
+ .next{right: 30px; background-position: right top;}
 #indexCtn p{ line-height: 24px; text-indent: 26px} 
 .indexCtn-indexbox{background: url(../images/indexbox-bg.jpg) no-repeat; height: 294px; text-align: center;} 
 	.indexCtn-indexbox a{display: block; float: left;  margin: 195px 96px 0; 
